@@ -1,0 +1,72 @@
+@import-normalize; /* bring in normalize.css styles */
+
+@font-face {
+    font-family: 'modernistregular';
+    src: url('../public/SkModernistRegular.otf');
+}
+body,
+html {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+}
+
+nav {
+    border: none;
+    background-color: #212121;
+}
+
+div.p-toolbar.p-component {
+    background: transparent;
+    border: none;
+}
+
+.p-toolbar .p-component {
+    margin: 10px;
+}
+
+.navbar-button {
+    background: transparent;
+    border: none;
+    border-radius: 30px;
+}
+.navbar-button:hover {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.greeting {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #edeff2;
+    width: max-content;
+}
+h1.greeting {
+    font-size: 60px;
+    position: relative;
+    left: 5rem;
+}
+h2.greeting {
+    position: relative;
+    bottom: 1rem;
+    left: 5rem;
+    width: fit-content;
+}
+h3.greeting {
+    position: relative;
+    top: 1rem;
+    font-size: 18px;
+    left: 5rem;
+    width: fit-content;
+}
+
+div.greeting {
+    position: relative;
+    top: 10rem;
+}
+.greetingImage {
+    position: relative;
+    left: 50rem;
+    top: -15rem;
+}
